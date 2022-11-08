@@ -1,6 +1,5 @@
 #include <fstream>
 #include <iostream>
-#include <windows.h>
 
 
 void record_file(std::ofstream &file, int count_arr, int *&arr) {
@@ -44,8 +43,6 @@ void change_left(int *&arr, int count_arr, std::ofstream &file) {
 }
 
 int main() {
-    SetConsoleCP(CP_UTF8);
-    SetConsoleOutputCP(CP_UTF8);
 
     std::ifstream file("in.txt");
     if (!file) {
