@@ -58,8 +58,6 @@ int main() {
         return 0;
     }
 
-    std::cout << "End of program" << std::endl;
-
 
     int count_arr1 = 0;
     int count_arr2 = 0;
